@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tests&Quizes</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="file:/Users/croko/Documents/test/css/style.css">
+    <link rel="stylesheet" type="text/css" href="file:/Users/croko/Documents/test/css/quiz.css">
+</head>
+<body>
+    <header>
+      <div class="logo">
+        <img src="file:/Users/croko/Documents/test/images/logo.jpg" alt="Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="file:/Users/croko/Documents/test/index.html">Главная</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+          <li><a href="#about-us">О нас</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="tests">
+        <h2>В данный момент для прохождения доступно три теста. Античность, Эпоха Возрождения и Наше Время. Поддержите нас и тестов станет больше.</h2>
+        <div class="gallery">
+          <div class="picture">
+            <img src="file:/Users/croko/Documents/test/images/antic.jpg" alt="Picture 1. Античность">
+            <div class="description">
+              <h2><a class="link" href="#options" onclick="showQuestionA()">Античность</a></h2>
+              <p>Описание: 10 вопросов с выбором ответов.</h2>
+            </div>
+          </div>
+          <div class="picture">
+          <img src="file:/Users/croko/Documents/test/images/reb.jpg" alt="Picture 2. Тесты">
+            <div class="description">
+              <h2><a class="link" href="#options" onclick="showQuestionReb()">Эпоха Возрождения</a></h2>
+              <p>Описание: 10 вопросов с выбором ответов.</h2>
+            </div>
+          </div>
+          <div class="picture">
+            <img src="file:/Users/croko/Documents/test/images/now.jpg" alt="Picture 3. Автор: неизвестен">
+            <div class="description">
+              <h2><a class="link" href="#options" onclick="showQuestionNow()">Наше время</a></h2>
+              <p>Мы отбирали их очень тщательно</h2>
+            </div>
+          </div>
+        </div>
+    </section>
+    <br><hr><br><hr><br><hr><br>
+    <section id="quiz">
+        <div id="question"></div>
+        <div id="image"></div>
+        <div id="options">
+            <button class="option"></button>
+            <button class="option"></button>
+            <button class="option"></button>
+            <button class="option"></button>
+        </div>
+        <button id="submit" hidden="true">Submit</button>
+    </div>
+    <br><hr><br><hr><br><hr><br>
+    <p class="advice">Если вас не устроил результат, либо, если вы хотите обратиться к дополнительным знаниям во время прохождения теста, вы можете перейти к
+        <a class="link" href="file:/Users/croko/Documents/test/index.html">статьям</a></p>
+    </main>
+    <footer class="footer">
+       &copy; 2023 - ГУАП; Группа 8027, Д.А. Костерев, Э.Р. Курманалиев, Н.С.Новиков
+    </footer>
+    <script type="text/javascript" src="file:/Users/croko/Documents/test/scripts/quiz_antic.js"></script>
+    <script type="text/javascript" src="file:/Users/croko/Documents/test/scripts/quiz.js"></script>
+
+  </body>
+</html>
